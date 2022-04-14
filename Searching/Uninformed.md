@@ -1,6 +1,6 @@
 # Uninformed search
 
-The search algo only uses information from the problem definition
+The search algo only uses information from the problem definition. Uses **Systematic** generation of nodes to reach goal state.
 
 ## Breadth first search
 
@@ -35,10 +35,19 @@ Time complexity: b^d
 Space complexity: b*d  
 Optimal: No
 
-## Depth limited search
+## Iterative deeping search
 
 Similar to DFS, but increases the depth search incrementally. Similar concept to BFS on level checking, but algo looks deep on a selected level basis.  
 Completeness: Yes, since solution can be found for some depth  
 Time complexity: b^d  
 Space complexity: b*d  
 Optimal: Yes, since solution only encountered when d=solution depth
+
+## Summary
+
+| Factor | BFS | UCS | DFS | Depth limited | Iterative deepening |
+| --- | --- | --- | --- | :---: | :---: |
+| Time | b^d | b^d | b^d | b^l | b^d |
+| Space | b^d | b^d | b&times;d | b&times;l | b&times;d|
+| Optimal | Y | Y | N | N | Y |
+| Complete | Y | Y | N | Y, l>=d | Y |
