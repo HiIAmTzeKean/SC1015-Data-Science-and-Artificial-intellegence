@@ -10,6 +10,8 @@ Time complexity: b^d
 Space complexity: b^d, since each node must be kept in memory to return the solution  
 Optimal: Yes, if each step has equal cost since we are doing level expansion 
 
+![BFS](BFS.jpg)
+
 ## Uniform cost search
 
 Similar to breadth search but considers the cost of each step and expands the nodes with the lowest cost.  
@@ -26,6 +28,8 @@ Completeness: if there are loops then solution may not be found, but can be solv
 Time complexity: b^d  
 Space complexity: b*d, algo must store all possible nodes for backtrack, then if branching factor is 3 and algo always takes the left path, then for each level travelled down, the algo must store 2 additional nodes for backtracking  
 Optimal: No
+
+![DFS](DFS.jpg)
 
 ## Depth limited search
 

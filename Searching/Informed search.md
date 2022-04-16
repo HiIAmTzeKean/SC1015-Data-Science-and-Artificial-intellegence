@@ -14,18 +14,22 @@ Use the notion of choosing the best node to expand such that the search is alway
 ### Greedy search
 
 Expand node that is the estimated to be closest to the goal. TStrategy is to expand all frontiers and evaluate based on heuristic function (BFS idea), store the results into priority queue. Then always pick closest node  
-Complete: No, there could be loops causing it to be like a DFS 
-Time: b^d, DFS approach
-Space: b^d, BFS approach to storing nodes
-Optimal: No
+Complete: No, there could be loops causing it to be like a DFS  
+Time: b^d, DFS approach  
+Space: b^d, BFS approach to storing nodes  
+Optimal: No  
+
+![Greedy](Greedy%20Search.jpg)
 
 ### A* Search
 
 Uses UCS idea with greedy search.
 Takes g(n) cost function from UCS and h(n) from greedy search. Such that f(n)=g(n)+h(h), using the whole life of the path to estimate desirability.  
 g(n) is the backward cost (cumulative cost from start node)  
-h(n) is forward cost (estimate cost from current node to goal)
-Complete: Yes
-Time: b^d
-Space: b^d
-Optimal: Yes
+h(n) is forward cost (estimate cost from current node to goal)  
+Complete: Yes  
+Time: b^d  
+Space: b^d  
+Optimal: Yes  
+
+![A Star](A%20Star.jpg)
