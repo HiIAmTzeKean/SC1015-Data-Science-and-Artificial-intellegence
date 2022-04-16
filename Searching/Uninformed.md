@@ -8,7 +8,7 @@ Expand all nodes in the current level before expanding other nodes. Uses a **FIF
 Completeness: Yes, if solution exist, the solution can always be found  
 Time complexity: b^d  
 Space complexity: b^d, since each node must be kept in memory to return the solution  
-Optimal: Yes if each step has equal cost  
+Optimal: Yes, if each step has equal cost since we are doing level expansion 
 
 ## Uniform cost search
 
