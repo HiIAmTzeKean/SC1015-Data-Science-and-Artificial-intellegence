@@ -9,6 +9,7 @@ Agent perceives through sensors and acts through effectors
 2. Agent can learn if autonomous
     - does not only use built-in knowledge on environment
     - agent can adapt to changes in environment
+    - note that an autonomous agent may not imply rational as it depends on the code logic
 
 ## Types of agent
 

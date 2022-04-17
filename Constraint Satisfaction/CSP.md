@@ -7,6 +7,7 @@ Requires the following to be defined:
 
 2. Goal test
     - set of constraints that allow combination of values for variables
+    - constraints can be defined explicitly or implicitly via function
 
 3. Actions
 
@@ -18,7 +19,7 @@ Unary: Where there is restriction of possible assignment value
 
 Binary: Restriction of relationship between two variables
 
-Global: Relationship between aribitray number of variables
+Global: Relationship between arbitrary number of variables
 
 ## Types of domains
 
@@ -26,7 +27,7 @@ Discrete finite: Set of some numbers
 
 Discrete infinite: Set of all integers
 
-Continuous: Real number from 0 to 1
+Continuous: Real numbers from 0 to 1
 
 ## Types of assignments
 
@@ -45,7 +46,7 @@ Before generating new successors, check constraint violation. If there is a viol
 
 ![n queen backtracking](backtrack.gif)
 
-Remove redundancy of expanding frontiers that have already violated constraints. But this is still a brute-froce approach, and for huge number of n, the time complexity is still O(n^2).
+Remove redundancy of expanding frontiers that have already violated constraints. But this is still a brute-force approach, and for huge number of n, the time complexity is still O(n^2).
 
 References:
 

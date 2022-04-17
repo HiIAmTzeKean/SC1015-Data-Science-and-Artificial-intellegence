@@ -23,7 +23,7 @@ To assign variables that is involved in the largest number of constraints on una
 
 Assigning variables with values that leaves for maximum flexibility for future assignments
 
-## Min-Conflict heristic
+## Min-Conflict heuristic
 
 For some given initial assignment, we select a variable with in the scope of violated constraint and assign it a value that violates least number of constraint.
 

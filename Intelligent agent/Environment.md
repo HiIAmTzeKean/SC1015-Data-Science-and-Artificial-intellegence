@@ -14,3 +14,6 @@
 
 5. Discrete vs continuous
     - if there are limited possible perception and action
+
+Some [examples](https://www.doc.ic.ac.uk/project/examples/2005/163/g0516334/environ.html) before we conclude this page  
+![examples](Env%20types.png)

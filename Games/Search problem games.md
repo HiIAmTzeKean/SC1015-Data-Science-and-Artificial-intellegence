@@ -51,3 +51,7 @@ When the costs of computing to terminal state is too high, it can be impractical
 1. Utility function replaced by evaluation function that estimates desirability
 2. Partial tree search done instead
     - can be done with depth limit or having a cut-off test
+
+## Evaluation functions
+
+When the search tree is too big to create within the time given, we can use evaluation functions given by domain experts on expected utility for a given assignment

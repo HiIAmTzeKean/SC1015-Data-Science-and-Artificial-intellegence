@@ -23,7 +23,7 @@ Optimal: Yes
 
 ## Depth first search
 
-Expands the nodes by seeking based on depth. Uses a **LIFO** stack and backtracks when no solution is obtained.
+Expands the nodes by seeking based on depth. Uses a **LIFO** stack and we assume there is no structure to keep track of the path travelled.  
 Completeness: if there are loops then solution may not be found, but can be solved with repeated state checking. if space is finite without loops, then solution can be found.  
 Time complexity: b^d  
 Space complexity: b*d, algo must store all possible nodes for backtrack, then if branching factor is 3 and algo always takes the left path, then for each level travelled down, the algo must store 2 additional nodes for backtracking  
@@ -37,7 +37,7 @@ Similar to DFS, but applies a cut-off limit
 Completeness: if cut-off>=d  
 Time complexity: b^d  
 Space complexity: b*d  
-Optimal: No
+Optimal: No, the issue is similar to DFS
 
 ## Iterative deeping search
 
@@ -45,7 +45,7 @@ Similar to DFS, but increases the depth search incrementally. Similar concept to
 Completeness: Yes, since solution can be found for some depth  
 Time complexity: b^d  
 Space complexity: b*d  
-Optimal: Yes, since solution only encountered when d=solution depth
+Optimal: Yes, since solution only first encountered when d=solution depth
 
 ## Summary
 
