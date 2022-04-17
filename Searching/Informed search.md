@@ -21,11 +21,19 @@ Optimal: No
 
 ### A* Search
 
-Uses UCS idea with greedy search.
+Uses UCS idea with greedy search. 
 Takes g(n) cost function from UCS and h(n) from greedy search. Such that f(n)=g(n)+h(h), using the whole life of the path to estimate desirability.  
 g(n) is the backward cost (cumulative cost from start node)  
-h(n) is forward cost (estimate cost from current node to goal)
-Complete: Yes
-Time: b^d
-Space: b^d
-Optimal: Yes
+h(n) is forward cost (estimate cost from current node to goal)  
+___
+Note  
+The worse case performance of A* is when the heuristic performance returns 0 all the time, causing it to function like UCS
+__
+Complete: Yes  
+Time: b^d  
+Space: b^d  
+Optimal: Yes  
+
+References:
+
+- <https://en.wikipedia.org/wiki/A*_search_algorithm#Bounded_relaxation>

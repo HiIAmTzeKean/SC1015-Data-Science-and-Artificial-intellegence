@@ -25,7 +25,7 @@ Expands the nodes by seeking based on depth. Uses a **LIFO** stack and backtrack
 Completeness: if there are loops then solution may not be found, but can be solved with repeated state checking. if space is finite without loops, then solution can be found.  
 Time complexity: b^d  
 Space complexity: b*d, algo must store all possible nodes for backtrack, then if branching factor is 3 and algo always takes the left path, then for each level travelled down, the algo must store 2 additional nodes for backtracking  
-Optimal: No
+Optimal: No, multiple path may exist and the path by going through depth first may not be the most efficient
 
 ## Depth limited search
 
@@ -51,3 +51,7 @@ Optimal: Yes, since solution only encountered when d=solution depth
 | Space | b^d | b^d | b&times;d | b&times;l | b&times;d|
 | Optimal | Y | Y | N | N | Y |
 | Complete | Y | Y | N | Y, l>=d | Y |
+
+References:
+
+- <https://www.javatpoint.com/ai-uninformed-search-algorithms>
