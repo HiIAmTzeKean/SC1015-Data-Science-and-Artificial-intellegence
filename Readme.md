@@ -2,7 +2,7 @@
 
 This is my summary of part 2 of NTU SC1015 Data Science and AI module.
 
-- [History of AI](History%20of%20AI/History%20of%20AI.md))
+- [History of AI](History%20of%20AI/History%20of%20AI.md)
 - [Agents](Intelligent%20agent/Agents.md)
 - [Designing agent](Intelligent%20agent/Design%20agent.md)
 - [Types of environment](Intelligent%20agent/Environment.md)
