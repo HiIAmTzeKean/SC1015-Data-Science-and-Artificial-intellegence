@@ -4,7 +4,7 @@
     - if agent is able to perceive the complete state of the environment (portion of environment hidden?)
 
 2. Deterministic vs non-deterministic
-    - if next state is completely determined by action and state taken by agent (any randomness?)
+   - if next state is completely determined by action and state taken by agent (any randomness?)
 
 3. Episodic vs sequential
     - if each set of moves are independent of each other or if past action determines future possible states

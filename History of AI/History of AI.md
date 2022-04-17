@@ -17,4 +17,6 @@ AI refers to the intelligence demonstrated by a machine, while natural intellige
 4. Acting rationally
    1. Doing the right thing which maximises welfare
 
+## Summary table
+
 ![Summary of views](AI%20development.png)

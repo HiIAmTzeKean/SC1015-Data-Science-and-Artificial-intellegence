@@ -11,7 +11,7 @@ Each problem comes with
 3. Fringe to store frontier on expansion (can be stack, queue etc)
 
 - Completeness
-  - does search always find a solution if there exist one
+  - does search always find a solution if there exist one?
 
 - Time complexity
   - time needed to get solution
@@ -20,4 +20,4 @@ Each problem comes with
   - memory space used
   
 - Optimality
-  - if solution obtained is always the least cost
+  - if solution obtained is always the least cost?
