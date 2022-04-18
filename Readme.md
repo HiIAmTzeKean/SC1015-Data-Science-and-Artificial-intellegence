@@ -1,6 +1,6 @@
 # SC1015 summary
 
-This is my summary of part 2 of NTU SC1015 Data Science and AI module.
+This is my summary of part 2 of NTU SC1015 Data Science and AI module. The bullet list follows the order of the content taught in lecture.
 
 - [History of AI](History%20of%20AI/History%20of%20AI.md)
 - [Agents](Intelligent%20agent/Agents.md)

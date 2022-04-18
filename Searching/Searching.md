@@ -10,6 +10,8 @@ Each problem comes with
 2. Search strategy defined by search technique
 3. Fringe to store frontier on expansion (can be stack, queue etc)
 
+## Evaluation of search
+
 - Completeness
   - does search always find a solution if there exist one?
 

@@ -19,7 +19,7 @@ Unary: Where there is restriction of possible assignment value
 
 Binary: Restriction of relationship between two variables
 
-Global: Relationship between arbitrary number of variables
+Global: Restriction of relationship between arbitrary number of variables
 
 ## Types of domains
 

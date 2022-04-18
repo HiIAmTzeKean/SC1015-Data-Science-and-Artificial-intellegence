@@ -8,7 +8,7 @@ Games are usually time limited such as chess. Each move has an average branching
 
 Must account for hostile agents
 
-- other agent's goal is to diminish our utility
+- Assumption that opponent agent's goal is to diminish our utility
 - we do not consider randomness and non-deterministic action for simplicity
 
 ## Information available
@@ -37,9 +37,12 @@ There must be a payoff function that can calculate utility so that agent can mak
 3. Best move is chosen (that is the highest utility)
 
 &nbsp;
+![minimax algo](minimax.png)
 &nbsp;
 
 #### Perfect decisions
+
+For the perfect decisions to be made by the algo, at least 2 of these conditions must be fulfilled
 
 1. No time limit, then complete tree can be generated
 2. Max (agent) always maximises utility and Min (opponent) minimise utility
@@ -54,4 +57,4 @@ When the costs of computing to terminal state is too high, it can be impractical
 
 ## Evaluation functions
 
-When the search tree is too big to create within the time given, we can use evaluation functions given by domain experts on expected utility for a given assignment
+When the search tree is too big to create within the time given, we can use evaluation functions given by domain experts on expected utility for a given assignment. This allows limited generation of the search tree which would save a great amount of time.
